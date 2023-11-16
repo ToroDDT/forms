@@ -1,0 +1,111 @@
+html {
+    overflow: hidden;
+    
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#image {
+   
+    border: 1px solid black;
+    width: 50%;
+    height: 100%;
+   
+}
+
+img {
+
+    width: 100%;
+    height: 100%;
+}
+
+#form-content {
+    border: 1px solid black;
+
+}
+
+footer {
+    height: 33%;
+    background-color: lightgray;
+    padding-top: 5%;
+    padding-left: 3%;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: beige;
+    height: 33%;
+    padding-top: 5%;
+    padding-left: 3%;
+}
+
+form {
+   padding: 0;
+   margin: 0;
+   
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    
+    margin-bottom: 5%;
+    width: 50%;
+    margin-top: 0;
+    font-size: 0.8rem;
+}
+
+#sectionTwo {
+
+    width: 50%;
+}
+#sectionOne {
+    width: 50%;
+}
+
+#heading {
+    width: 100%;
+    border: 1px solid black;
+    display: block;
+    position: relative;
+}
+
+#input_section {
+    display: flex;
+    margin-top: 5%;
+    
+}
+
+#text {
+    height: 33%;
+    background-color: lightgray;
+    margin: 0;
+    padding-top: 20%;
+    padding-left: 3%;
+    padding-right: 40%;
+    
+    
+}
+
+button {
+    width: 30%;
+    height: 15%;
+    border-radius: 10%;
+    border: none;
+    background-color: darkolivegreen;
+    color: white;
+    font-weight: 900;
+}
